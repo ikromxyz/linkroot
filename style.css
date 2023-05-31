@@ -1,0 +1,43 @@
+body {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
+  background-color: #dfe1e6;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.username {
+  display: flex;
+  justify-content: center;
+  background-color: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: none;
+}
+
+.content-btn {
+  color: auto;
+  height: 50px;
+  width: 500px;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+
+.content-btn:hover {
+  background-color: #b2bbd1;
+  transition: 0.3s;
+}
