@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #dfe1e6;
+  background-color: #b2bbd1;
 }
 
 li {
@@ -43,11 +43,11 @@ a {
 }
 
 .nav-link {
-  transition: 0.7s ease;
+  transition: 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #b2bbd1;
+  color: blue;
 }
 
 .hamburger {
@@ -84,13 +84,18 @@ a {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: #dfe1e6;
-    width: 100%;
+    background-color: #b2bbd1;
+    width: 25%;
     text-align: center;
     transition: 0.3s;
+    /* border-top-left-radius: 10px; */
+    border-bottom-left-radius: 10px;
   }
   .nav-item {
-    margin: 16px 0;
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .nav-menu.active {
